@@ -1,0 +1,23 @@
+{
+	"name": "opauth/strava",
+	"description": "Strava strategy for Opauth",
+	"keywords": ["authentication","auth","strava"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Phill Price",
+			"email": "phill@csl-web.com",
+			"homepage": "http://www.csl-web.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
